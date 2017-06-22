@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+
+    <ion-select [(ngModel)]="baseCountry">
+      <ion-option value="USD" > <img class="flagImage" src="assets/flags/USD.jpg">USD</ion-option>
+    </ion-select>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let country of countries">
+      <ion-thumbnail item-start>
+        <img class="flagImage" src="assets/flags/{{country.country}}.jpg">
+      </ion-thumbnail>
+      <h2>{{country.country}}</h2>
+      <span ion-button clear item-end>{{country.rate}}</span>
+    </ion-item>
+
+  </ion-list>
+</ion-content>
