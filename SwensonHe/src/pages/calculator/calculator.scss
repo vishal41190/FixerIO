@@ -1,0 +1,51 @@
+page-calculator {
+
+   ion-thumbnail ion-img, ion-thumbnail img{
+    &.flagImage{
+      height:40px;
+    }
+  }
+
+  ion-label.label h2{
+    color:rgb(136,136,136);
+    font-weight: 500;
+  }
+  .button-clear-ios{
+    color:rgb(136,136,136);
+  }
+  .item-button.button-clear{
+    font-size:1.7rem;
+    font-weight: 500;
+  }
+  .list > .item-block{
+    border-bottom: 0.55px solid #c8c7cc;
+  }
+  .item.item-block .item-inner{
+    border-bottom: none;
+  }
+
+
+  .inputWrapper{
+    background-color: white;
+    border-bottom:1px solid rgb(136,136,136);
+    font-size: 28px;
+    text-align: center;
+    color:rgb(136,136,136);
+  }
+
+  .content{
+    background-color: rgb(33,151,249);
+  }
+
+  .text-input{
+    line-height:40px;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(136,136,136);
+  }
+
+
+  .countryName{
+    padding:20px;
+  }
+}

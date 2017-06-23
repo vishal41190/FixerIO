@@ -8,11 +8,13 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {CurrencyService} from "../services/currencyService";
 import {HttpModule} from "@angular/http";
+import {CalculatorPage} from "../pages/calculator/calculator";
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    CalculatorPage
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import {HttpModule} from "@angular/http";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    CalculatorPage
   ],
   providers: [
     StatusBar,

@@ -27,7 +27,6 @@ export class CurrencyService {
       .map( (res: Response) =>{
         let body = res.json();
         let response = [];
-        console.log(this.countryList);
         for(let i=0; i<this.countryList.length;i++){
           if(this.countryList[i] != baseCounty){
             response.push({country:this.countryList[i],rate: body.rates[this.countryList[i]]});

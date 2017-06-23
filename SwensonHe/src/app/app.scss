@@ -25,5 +25,17 @@
   .item-ios ion-thumbnail{
     min-height:40px;
   }
+
+  .toolbar-background{
+    background-color: rgb(33,151,249);
+  }
+
+  .toolbar-ios{
+    min-height: 70px;
+  }
+
+  .bar-button-default, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default{
+    color:white;
+  }
 }
 

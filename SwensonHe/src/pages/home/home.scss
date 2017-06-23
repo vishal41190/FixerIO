@@ -23,4 +23,44 @@ page-home {
   .item.item-block .item-inner{
     border-bottom: none;
   }
+
+  .header{
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+
+  }
+
+  .headerWrapper{
+    text-align: center;
+  }
+
+  .headerImage{
+    width:50%;
+    float:left;
+    text-align: right;
+
+    img{
+      padding: 10px;
+      background-color: white;
+      height: 53px;
+      width: auto;
+
+    }
+  }
+  .headerText{
+    width:50%;
+    float:left;
+    text-align: left;
+    line-height: 3.3rem;
+
+    div{
+      font-size: 20px;
+      background: white;
+      color: black;
+      height: 5.3rem;
+      padding: 10px;
+      width: 70px;
+    }
+  }
 }
